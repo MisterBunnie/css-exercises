@@ -1,16 +1,16 @@
-.p:nth-child(odd){
-    background-color: 250, 92, 174;
-    font-family:Verdana,DejaVu Sans,sans-serif;
+.odd{
+    background-color: rgb(250, 92, 174);
+    font-family:Verdana,"DejaVu Sans",sans-serif;
 }
-#div{
-    color: 243°, 95%, 90%;
+#two{
+    color: hsl(243, 91%, 47%);
     font-size: 36px;
 }
-.p:nth-child(-n+3){
+.odd-special{
     font-size: 24px;
 }
-#div:nth-child(-n+4){
-    background-color: 119°, 67%, 69%;
+#four{
+    background-color: hsl(119, 67%, 69%);
     font-size: 24px;
     font-weight: bold;
 }
